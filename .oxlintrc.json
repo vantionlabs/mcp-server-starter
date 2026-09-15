@@ -1,0 +1,47 @@
+{
+  "$schema": "./node_modules/@effect/tsgo/oxlint-schema.json",
+  "extends": [
+    "./node_modules/@effect/tsgo/oxlint-presets/recommended.json"
+  ],
+  "plugins": [
+    "effecttsgo",
+    "typescript",
+    "oxc",
+    "unicorn",
+    "vitest"
+  ],
+  "rules": {
+    "typescript/no-floating-promises": "error",
+    "typescript/no-misused-promises": "error",
+    "typescript/switch-exhaustiveness-check": "error",
+    "typescript/no-unnecessary-type-assertion": "error",
+    "eslint/no-console": "error",
+    "eslint/no-unused-vars": "error",
+    "vitest/no-standalone-expect": "off"
+  },
+  "overrides": [
+    {
+      "files": [
+        "src/bin/**"
+      ],
+      "rules": {
+        "eslint/no-console": "off",
+        "effecttsgo/global-console": "off",
+        "effecttsgo/node-builtin-import": "off"
+      }
+    },
+    {
+      "files": [
+        "test/**"
+      ],
+      "rules": {
+        "effecttsgo/node-builtin-import": "off",
+        "effecttsgo/async-function": "off"
+      }
+    }
+  ],
+  "ignorePatterns": [
+    "node_modules/**",
+    "coverage/**"
+  ]
+}

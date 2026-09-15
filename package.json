@@ -1,0 +1,54 @@
+{
+  "name": "mcp-server-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Model Context Protocol server on Effect 4 with OIDC sign-in, API keys, per-tool scopes, audit logging and rate limits.",
+  "license": "MIT",
+  "author": "Vantion Labs <hello@vantion.co> (https://vantion.co)",
+  "type": "module",
+  "packageManager": "pnpm@10.12.4",
+  "engines": {
+    "node": ">=24.11.0"
+  },
+  "scripts": {
+    "prepare": "effect-tsgo patch --oxlint",
+    "dev": "node --watch --env-file-if-exists=.env src/Main.ts",
+    "start": "node src/Main.ts",
+    "check": "tsc -p tsconfig.json",
+    "lint": "oxlint",
+    "format": "dprint fmt",
+    "format:check": "dprint check",
+    "test": "vitest run",
+    "api-keys": "node --env-file-if-exists=.env src/bin/ApiKeys.ts"
+  },
+  "dependencies": {
+    "@effect/opentelemetry": "4.0.0-rc.115",
+    "@effect/platform-node": "4.0.0-rc.115",
+    "@effect/sql-pg": "4.0.0-rc.115",
+    "@opentelemetry/api": "^1.9.1",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.222.0",
+    "@opentelemetry/resources": "^2.11.0",
+    "@opentelemetry/sdk-trace-base": "^2.11.0",
+    "@opentelemetry/sdk-trace-node": "^2.11.0",
+    "@opentelemetry/semantic-conventions": "^1.43.0",
+    "effect": "4.0.0-rc.115",
+    "jose": "^6.2.12",
+    "redis": "^5.8.0"
+  },
+  "devDependencies": {
+    "@effect/tsgo": "0.45.0",
+    "@effect/vitest": "4.0.0-rc.115",
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "@types/node": "^24.0.0",
+    "dprint": "^0.57.4",
+    "oxlint": "1.82.0",
+    "oxlint-tsgolint": "7.0.2001",
+    "typescript": "7.0.2",
+    "vitest": "^5.0.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "dprint"
+    ]
+  }
+}
