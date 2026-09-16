@@ -1,4 +1,28 @@
-# MCP server starter
+<p align="center">
+  <a href="https://vantion.co">
+    <img src="https://raw.githubusercontent.com/vantionlabs/.github/main/profile/banner.png" alt="Vantion Labs" width="100%" />
+  </a>
+</p>
+
+<h1 align="center">MCP server starter</h1>
+
+<p align="center">
+  <b>Typed, scoped and audited access to your systems, for AI agents.</b><br />
+  OAuth or API keys, a scope per tool, an audit row per call, and limits that hold across replicas.
+</p>
+
+<p align="center">
+  <a href="https://github.com/vantionlabs/mcp-server-starter/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/vantionlabs/mcp-server-starter/actions/workflows/ci.yml/badge.svg" /></a>
+  <a href="https://modelcontextprotocol.io"><img alt="MCP" src="https://img.shields.io/badge/MCP-2233f0?style=flat-square" /></a>
+  <a href="https://www.typescriptlang.org"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /></a>
+  <a href="https://effect.website"><img alt="Effect 4" src="https://img.shields.io/badge/Effect_4-2233f0?style=flat-square" /></a>
+  <a href="https://nodejs.org"><img alt="Node 24" src="https://img.shields.io/badge/Node_24-339933?style=flat-square&logo=nodedotjs&logoColor=white" /></a>
+  <a href="https://www.postgresql.org"><img alt="Postgres" src="https://img.shields.io/badge/Postgres-4169E1?style=flat-square&logo=postgresql&logoColor=white" /></a>
+  <a href="LICENSE"><img alt="MIT" src="https://img.shields.io/badge/licence-MIT-f4f4f6?style=flat-square" /></a>
+  <a href="https://vantion.co"><img alt="Vantion Labs" src="https://img.shields.io/badge/by-Vantion_Labs-2233f0?style=flat-square" /></a>
+</p>
+
+---
 
 A [Model Context Protocol](https://modelcontextprotocol.io) server for giving AI
 agents access to internal systems, from [Vantion Labs](https://vantion.co).
