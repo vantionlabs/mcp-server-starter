@@ -139,6 +139,4 @@ one instance. See [docs/deploying.md](docs/deploying.md).
 
 ## Licence
 
-MIT. See [LICENSE](LICENSE). Built by [Vantion Labs](https://vantion.co); if you
-want help connecting agents to your own systems,
-[talk to the founder](https://vantion.co/book-a-call).
+MIT. See [LICENSE](LICENSE). Built by [Vantion Labs](https://vantion.co).

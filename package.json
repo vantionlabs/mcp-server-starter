@@ -4,7 +4,7 @@
   "private": true,
   "description": "A Model Context Protocol server on Effect 4 with OIDC sign-in, API keys, per-tool scopes, audit logging and rate limits.",
   "license": "MIT",
-  "author": "Vantion Labs <hello@vantion.co> (https://vantion.co)",
+  "author": "Vantion Labs (https://vantion.co)",
   "type": "module",
   "packageManager": "pnpm@10.12.4",
   "engines": {
