@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://vantion.co">
     <img src="https://raw.githubusercontent.com/vantionlabs/.github/main/profile/banner.png" alt="Vantion Labs" width="100%" />
-  </a>
 </p>
 
 <h1 align="center">MCP server starter</h1>
@@ -19,13 +17,13 @@
   <a href="https://nodejs.org"><img alt="Node 24" src="https://img.shields.io/badge/Node_24-339933?style=flat-square&logo=nodedotjs&logoColor=white" /></a>
   <a href="https://www.postgresql.org"><img alt="Postgres" src="https://img.shields.io/badge/Postgres-4169E1?style=flat-square&logo=postgresql&logoColor=white" /></a>
   <a href="LICENSE"><img alt="MIT" src="https://img.shields.io/badge/licence-MIT-f4f4f6?style=flat-square" /></a>
-  <a href="https://vantion.co"><img alt="Vantion Labs" src="https://img.shields.io/badge/by-Vantion_Labs-2233f0?style=flat-square" /></a>
+  <img alt="Vantion Labs" src="https://img.shields.io/badge/by-Vantion_Labs-2233f0?style=flat-square" />
 </p>
 
 ---
 
 A [Model Context Protocol](https://modelcontextprotocol.io) server for giving AI
-agents access to internal systems, from [Vantion Labs](https://vantion.co).
+agents access to internal systems, from Vantion Labs.
 Built on [Effect 4](https://effect.website) and its MCP support in
 `effect/unstable/ai`.
 
@@ -139,4 +137,4 @@ one instance. See [docs/deploying.md](docs/deploying.md).
 
 ## Licence
 
-MIT. See [LICENSE](LICENSE). Built by [Vantion Labs](https://vantion.co).
+MIT. See [LICENSE](LICENSE). Built by Vantion Labs.
